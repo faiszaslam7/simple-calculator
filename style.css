@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+/*	border: 1px green solid;*/
+	height: 90vh;
+	width: auto;
+	margin: 3%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	justify-items: center;
+}
+
+#body{
+	border: 1px black solid;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	gap: 2%;
+}
+
+#display{
+	border: 1px black solid;
+	width: 98%;
+	height: 19%;
+}
+
+#buttons{
+	border: 1px black solid;
+	width: 98%;
+	height: 79%;
+	display: flex;
+	flex-direction: row;
+}
+
+button{
+	height: 23%;
+}
+
+#values{
+	border: 1px green solid;
+	height: 100%;
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#values>button{
+	width: 32%;
+}
+
+#controller{
+	border: 1px yellow solid;
+	height: 100%;
+	width: 40%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+#controller>button{
+	width: 49%;
+}
+#controller>button:last-child{
+	width: 99%;
+}
