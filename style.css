@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 body{
@@ -12,10 +13,10 @@ body{
 	justify-content: center;
 	align-content: center;
 	justify-items: center;
+	background-color: #A94438;
 }
 
 #body{
-	border: 1px black solid;
 	height: 100%;
 	width: 100%;
 	display: flex;
@@ -29,10 +30,13 @@ body{
 	border: 1px black solid;
 	width: 98%;
 	height: 19%;
+	font-size: 300%;
+	font-weight: 800;
+	border-radius: 30px;
+	background: #E4DEBE;
 }
 
 #buttons{
-	border: 1px black solid;
 	width: 98%;
 	height: 79%;
 	display: flex;
@@ -41,10 +45,19 @@ body{
 
 button{
 	height: 23%;
+	font-size: 300%;
+	font-weight: 800;
+	border-radius: 30px;
+	border: 1px black solid;
+	background: #E4DEBE;
+}
+
+button:hover{
+	background: #E6BAA3;
+	color: #A94438;
 }
 
 #values{
-	border: 1px green solid;
 	height: 100%;
 	width: 60%;
 	display: flex;
@@ -59,7 +72,6 @@ button{
 }
 
 #controller{
-	border: 1px yellow solid;
 	height: 100%;
 	width: 40%;
 	display: flex;
@@ -68,9 +80,21 @@ button{
 	align-items: center;
 	justify-content: space-around;
 }
+
 #controller>button{
 	width: 49%;
 }
+
+#controller>button:first-child{
+	background: #D24545;
+	color: #E4DEBE;
+}
+
+#controller>button:first-child:hover{
+	background: #E4DEBE;
+	color: #D24545;
+}
+
 #controller>button:last-child{
 	width: 99%;
 }
